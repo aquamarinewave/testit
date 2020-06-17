@@ -679,4 +679,9 @@ footer img {
   header {
     height: 80px;
   }
+ 
+   .icon-chevron-up {
+    bottom: 5px;
+    right: 20px;
+  }
 }
