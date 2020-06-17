@@ -650,3 +650,28 @@ footer img {
 .sign-up input {
   display: block;
 }
+
+
+
+
+@media (max-width: 500px) {
+
+
+  .slider img {
+    height: 200px;
+  
+  }
+
+  .wrap {
+    width: 400px;
+  } 
+
+  footer .wrap{
+    display: block;
+    justify-content: center;
+  }
+  
+  .image-in-bag img {
+   display: none;
+  }
+}
