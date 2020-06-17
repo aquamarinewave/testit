@@ -72,7 +72,6 @@ header {
   display: flex;
   position: fixed;
   z-index: 1;
-  padding-top: 30px;
   background-color: #323b44;  
   width: 100%;
   height: 110px;
@@ -80,6 +79,7 @@ header {
 
 header img {
   height: 50px;
+   margin-top: 30px;
 }
 
 header .wrap {
@@ -96,7 +96,6 @@ header .wrap {
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;  /* центрируем содержимое кнопки */
   position: absolute;
-  top: 40px;
   width: 46px;
   height: 46px;  
   cursor: pointer;
@@ -653,7 +652,6 @@ footer img {
 
 
 
-
 @media (max-width: 500px) {
 
 
@@ -662,6 +660,9 @@ footer img {
   
   }
 
+  header img {
+    height: 30px;
+  }
   .wrap {
     width: 400px;
   } 
@@ -673,5 +674,9 @@ footer img {
   
   .image-in-bag img {
    display: none;
+  }
+
+  header {
+    height: 80px;
   }
 }
